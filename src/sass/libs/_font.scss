@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Medium'), local('Poppins-Medium'),
+        url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Bold'), local('Poppins-Bold'),
+        url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:  url('../fonts/icomoon.eot?h4ug90');
+	src:  url('../fonts/icomoon.eot?h4ug90#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?h4ug90') format('truetype'),
+		url('../fonts/icomoon.woff?h4ug90') format('woff'),
+        url('../fonts/icomoon.svg?h4ug90#icomoon') format('svg');
+    font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+	content: "\ea91";
+}
+.icon-instagram:before {
+	content: "\ea92";
+}
+.icon-github:before {
+	content: "\eab0";
+}
