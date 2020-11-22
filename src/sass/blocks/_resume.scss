@@ -1,24 +1,11 @@
 .resume {
     padding-top: 120px;
-    &__title {
-        position: relative;
-        text-align: center;
-        @include before_circle;
-        &:before {
-            top: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-    &__subtitle {
-        margin-top: 6px;
-        text-align: center;
-    }
     &__divider {
         margin-top: 22px;
     }
     &__wrapper {
-        padding: 60px 90px 0 70px;
+        margin-top: 60px;
+        padding: 0 90px 0 70px;
         display: grid;
         grid-template-columns: repeat(2, 420px);
         column-gap: 140px;
