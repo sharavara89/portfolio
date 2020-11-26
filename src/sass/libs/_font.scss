@@ -42,12 +42,15 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook2:before {
+.icon-telegram:before {
+	content: "\e900";
+  }
+  .icon-facebook2:before {
 	content: "\ea91";
-}
-.icon-instagram:before {
+  }
+  .icon-instagram:before {
 	content: "\ea92";
-}
-.icon-github:before {
+  }
+  .icon-github:before {
 	content: "\eab0";
-}
+  }
