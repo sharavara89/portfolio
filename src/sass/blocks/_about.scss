@@ -11,6 +11,8 @@
         grid-area: 1 / 1 / 3 / 2;
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
     &__descr {
@@ -33,7 +35,7 @@
     }
     &__skills {
         display: grid;
-        grid-template: repeat(2, 1fr) / repeat(2, 260px);
+        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 1fr);
         grid-auto-rows: 1fr;
         gap: 20px 50px;
         &-item {
