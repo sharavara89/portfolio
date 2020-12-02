@@ -48,7 +48,7 @@
     &__form {
         margin-top: 30px;
         display: grid;
-        grid-template: 45px 190px 45px / repeat(2, 280px);
+        grid-template: 45px 190px 49px / repeat(2, 1fr);
         grid-gap: 30px 25px;
         label {
             position: absolute;
@@ -107,7 +107,9 @@
     }
     &__policy {
         font-size: 12px;
-        line-height: 45px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
         input {
             margin-right: 10px;
         }

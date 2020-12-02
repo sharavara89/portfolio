@@ -99,12 +99,14 @@
     <section class="about">
         <div class="container">
             <div class="about__wrapper">
-                <div class="about__photo">
+                <picture class="about__photo">
+                    <source media="(max-width: 576px)" srcset="img/main_photo-min.jpg">
+                    <source media="(min-width: 577px)" srcset="img/main_photo.jpg">
                     <img src="img/main_photo.jpg" alt="photo">
-                </div>
+                </picture>
                 <div class="about__descr">
                     <h2 class="title title_fz16 about__title">Про меня</h2>
-                    <div class="title about__subtitle title_fz36">Меня зовут Александра</div>
+                    <div class="title title__section-subtitle about__subtitle">Меня зовут Александра</div>
                     <div class="divider"></div>
                     <p class="about__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -335,7 +337,7 @@
         </div>
     </section>
 
-    <!-- <section class="portfolio">
+    <section class="portfolio">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Портфолио</h2>
             <div class="title title__section-subtitle">Мои работы</div>
@@ -452,7 +454,7 @@
             </div>
         </div>
     </section>
- -->
+
     <script src="js/script.js"></script>
 </body>
 </html>

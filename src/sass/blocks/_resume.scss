@@ -1,13 +1,10 @@
 .resume {
     padding-top: 120px;
-    &__divider {
-        margin-top: 22px;
-    }
     &__wrapper {
         margin-top: 60px;
         padding: 0 90px 0 70px;
         display: grid;
-        grid-template-columns: repeat(2, 420px);
+        grid-template-columns: repeat(auto-fill, 420px);
         column-gap: 140px;
     }
     &__column {

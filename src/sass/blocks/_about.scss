@@ -26,6 +26,9 @@
         padding: 1px 0 0 12px;
         @include before_circle;
     }
+    &__subtitle {
+        text-align: left;
+    }
     &__text {
         font-weight: 500;
         font-size: 14px;
